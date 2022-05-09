@@ -1,38 +1,68 @@
 .App {
   text-align: center;
+  font-family: sans-serif;
+  color: darkslategray;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.head1{
+  width: 90%;
+  height: 70px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  font-size:x-large;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.head2{
+  width: 90%;
+  height: 70px;
+ text-align: center;
+  margin: auto;
+  font-size: larger;
   }
+
+.para {
+  margin-top: -20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+button {
+  background-color: royalblue;
   color: white;
+  padding: 1px 23px 0px 23px;
+  text-align: center;
+  border: none;
+}
+.pics2 {
+  margin-top: 5%; 
 }
 
-.App-link {
-  color: #61dafb;
+.hr{
+  margin-top: 130px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn {
+  position: absolute;
+  margin-left: -55%;
+  margin-top: 130px;
+  padding: 20px;
+  font-size:medium;
 }
+
+.pics3 {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: row;
+  margin-top: 40px;
+  padding: 10px;
+  gap: 70px;
+ 
+ }
+.lastName {
+  width: auto;
+  height: 200px;
+  margin-top: 120px;
+  background-color: snow;
+  justify-content: center;
+  align-items: center;  
+}
+

@@ -1,0 +1,123 @@
+/* HEADER SECTION  */
+
+.head{
+    display: flex;
+    justify-content: center;
+    margin-top: 4px;
+    color: antiquewhite;
+}
+.head a{
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 35px;
+    color: grey;
+    padding: 5px;
+}
+.head a:nth-child(1):active{
+    color: green;
+    border-bottom: 2px solid green;
+}
+.head a:nth-child(2):active{
+    color: skyblue;
+    border-bottom: 2px solid skyblue; 
+}
+.head span{
+    color: rgb(8, 14, 6);
+}
+.head .lgreen{
+    color: rgb(194, 214, 196);
+    font-weight: bolder;
+}
+nav{
+    /* height: 65px; */
+    margin-bottom: 10px;
+    height: auto;
+    position: sticky;
+    top: 0px;
+    left: 30px;
+    background-color: rgb(255, 253, 247);
+    padding: 10px 0px;
+    z-index: 100;
+    display: flex;
+    /* border: 1px solid black; */
+    /* transition: all 5s ease-in-out;   */
+}
+.nav_img{
+    width: 110px;
+    padding: 10px;
+    margin-right: 308px;
+}
+.nav_menu{
+    text-decoration: none;
+    padding:15px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 0.9em;
+    /* vertical-align: middle; */ 
+}
+.nav_menu .right>a:nth-child(2){
+    background-color: #096dea;
+    color: white;
+    padding: 9px 15px;
+    font-size: 0.9em;
+    
+}
+nav .nav_menu:hover{
+    color:#096dea ;
+}
+nav .right>.nav_menu:nth-child(2):hover{
+    /* position: relative; */
+    bottom: 2px;
+    left: 2px;
+    box-shadow: 0px 0px 2px 2px #096dea;
+}
+.nav_btn{
+    /* border: 1px solid black; */
+    height: 50px;
+    width: 170px;
+    padding: 10px;
+    /* margin-top: 12px; */
+    margin-left: 220px;
+}
+.btn_login{
+    text-decoration: none;
+    padding:7px;
+    margin-top: 5px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    height: 30px;
+    width: 99px;
+    border: none;
+    margin-left: 270px;
+}
+.btn_signup{
+    text-decoration: none;
+    
+    margin-top: 10px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    background-color: #096dea;
+    color:rgb(255, 255, 255) ;
+    height: 30px;
+    width:110px;
+    border: none;
+    
+   
+    
+}
+
+.lgreen {
+    margin-left: 20px;
+    color: pink;
+    font-weight: bold;
+    font-size: small;
+}
+.logsign {
+    margin-left: 250px;
+}
+

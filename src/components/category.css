@@ -1,0 +1,29 @@
+.category1 {
+     align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 80px;
+    
+}
+.cat2Text {
+    display: inline-block;
+    text-align: left;
+    
+  margin-left: 30px;
+  padding-top: 50px; 
+}
+.cat2Text > .label-1 {
+margin-top: -20px;
+}
+.category2 {
+    padding: 30px; 
+}
+.title {
+    font-weight:600;
+    font-size:xx-large;
+      
+}
+img {
+    border:none;
+    border-radius: 5px;
+}
